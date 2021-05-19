@@ -9,6 +9,22 @@ html {
    background-position: center;
    background-size: cover;
    background-attachment: fixed;
- } /* BACKGROUND IMAGE */
+ } 
  
  html, body { margin: 0; padding: 0; } /*RESETS CSS*/
+
+ .photo {
+   display: none;
+ }
+
+ /* Navbar Mobile Responsiveness WIP */
+ .navbar-brand {
+   font-family: 'Pacifico', sans-serif;
+   margin-left: 40%;
+ }
+
+ @media (min-width: 768px) {
+   .navbar-brand {
+     margin-left: 5%;
+   }
+ }
