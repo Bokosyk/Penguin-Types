@@ -13,6 +13,7 @@
    background-attachment: fixed;
 } /*RESETS CSS*/
 
+/* Photo in main. DELETE if I want to later */
  .photo {
    display: none;
  }
@@ -41,5 +42,6 @@
  main {
    text-align: center;
    font-family: 'Josefin Sans', sans-serif;
-   padding: 20px 0px 20px 0px;
+   font-size: 25px;
+   padding: 20px 20px 20px 20px;
  }
