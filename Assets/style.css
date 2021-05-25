@@ -13,11 +13,6 @@
    background-attachment: fixed;
 } /*RESETS CSS*/
 
-/* Photo in main. DELETE if I want to later */
- .photo {
-   display: none;
- }
-
  /* Navbar Mobile Responsiveness WIP */
  .navbar-brand {
    font-family: 'Pacifico', sans-serif;
