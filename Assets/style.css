@@ -13,46 +13,48 @@
    background-attachment: fixed;
 } /*RESETS CSS*/
 
- #myCarousel {
-   margin: 2% 0px 2% 0px;
- }
+nav {
+/* Add something here */
+}
 
- /* Navbar Mobile Responsiveness WIP */
+
+
+/* Navbar Mobile Responsiveness WIP */
+.navbar-brand {
+font-family: 'Pacifico', sans-serif;
+margin-left: 40%;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
  .navbar-brand {
-   font-family: 'Pacifico', sans-serif;
-   margin-left: 40%;
+  margin-left: 5%;
  }
+}
 
- /* Medium devices (landscape tablets, 768px and up) */
- @media only screen and (min-width: 768px) {
-   .navbar-brand {
-     margin-left: 5%;
-   }
- }
-
- /* CAROUSEL */
- .d-block {
-   margin: auto;
-   max-width: 900px;
-   height: 500px;
-   text-align: center;
- }
-
- main {
-   text-align: center;
-   font-family: 'Josefin Sans', sans-serif;
-   font-size: 25px;
-   padding: 20px 20px 20px 20px;
- }
-
- #projects {
-  /* display: table; */
-  width: 100%;
-  table-layout: fixed; 
-  border-spacing: 10px; 
-  background-color: #cddee6;
+/* CAROUSEL */
+.d-block {
+  margin: auto;
+  max-width: 900px;
+  height: 500px;
   text-align: center;
-  height: 10px;
+}
+
+main {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  padding: 20px 20px 20px 20px;
+}
+
+#projects {
+/* display: table; */
+width: 100%;
+ table-layout: fixed; 
+ border-spacing: 10px; 
+ background-color: #cddee6;
+ text-align: center;
+ height: 10px;
 }
 
 .project-tile {
